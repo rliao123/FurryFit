@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { useNavigate, useLocation, Route, Routes } from "react-router-dom";
 import Homepage from "./pages/Homepage";
+import Form from "./pages/Form";
 
 function App() {
   const action = useNavigate();
@@ -42,6 +43,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Homepage />} />
+      <Route path="/form" element={<Form />} />
     </Routes>
   );
 }
