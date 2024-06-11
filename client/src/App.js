@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { useNavigate, useLocation, Route, Routes } from "react-router-dom";
 import Homepage from "./pages/Homepage";
 import Form from "./pages/Form";
+import Results from "./pages/Results";
 
 function App() {
   const action = useNavigate();
@@ -44,6 +45,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Homepage />} />
       <Route path="/form" element={<Form />} />
+      <Route path="/form-results" element={<Results />} />
     </Routes>
   );
 }

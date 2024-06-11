@@ -1,0 +1,50 @@
+.results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+  background-color: #e0c8af;
+  padding: 0;
+  position: relative;
+}
+.icon-wrapper-results {
+  position: relative; /* Ensure the icon wrapper respects the relative positioning of .results */
+  padding: 10px;
+  width: 100%;
+}
+.results-logo {
+  width: 130px;
+  margin-left: 40px;
+}
+
+.result-dec1 {
+  position: absolute;
+  top: 150%;
+  left: 10%;
+  width: 200px;
+  z-index: 2;
+}
+
+.result-dec2 {
+  position: absolute;
+  top: 0;
+  right: -15px;
+  transform: translateY(50%);
+  width: 400px;
+  z-index: 2;
+}
+
+.result-dec3 {
+  position: absolute;
+  top: 100%;
+  left: 30%;
+  width: 200px;
+  transform: translateY(420%);
+  z-index: 2;
+}
+.result-component1 {
+  position: relative;
+  z-index: 1;
+}

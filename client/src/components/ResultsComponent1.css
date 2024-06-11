@@ -1,0 +1,89 @@
+.dog-pic {
+  border: 10px solid #fff;
+  border-radius: 10px;
+  width: 600px;
+  height: 500px;
+}
+
+.dogs-pic {
+  border: 5px solid #fff;
+  border-radius: 10px;
+  width: 250px;
+  height: 250px;
+}
+.results-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  background-color: #e0c8af;
+  border-radius: 15px;
+}
+
+.results-container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 35px;
+  background-color: #cab196;
+  width: 100%;
+  color: #fff;
+}
+
+.results-wrapper {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.results-text-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.results-text-wrapper {
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  gap: 50px;
+  max-width: 600px;
+  width: 100%;
+}
+
+.results-dogs-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  gap: 100px;
+  width: 100%;
+}
+
+.results-more-dogs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.results-more-dogs p {
+  margin-top: 15px;
+  font-size: x-large;
+}
+
+.results-details {
+  margin-bottom: 20px;
+}
+
+.results-details p {
+  margin: 5px 0;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  white-space: nowrap;
+}
+
+.results-description {
+  font-style: italic;
+  margin-top: -13px;
+}

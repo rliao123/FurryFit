@@ -1,10 +1,13 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./FormComponent.css";
 
 const FormComponent = () => {
+  const navigate = useNavigate();
   const handleSubmit = (event) => {
     event.preventDefault();
     // Handle form submission logic
+    navigate("/form-results");
     console.log("Form submitted");
   };
 
